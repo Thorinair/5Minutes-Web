@@ -1,0 +1,301 @@
+body {
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 26px;
+}
+
+form {
+	margin-top: 32px;
+}
+
+form p {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+a {
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	color: #000000;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dberror {
+	color: #ff0000;
+	font-size: 11px;
+}
+
+.hex {
+	background-image: url('../img/hex.png');
+	background-repeat: no-repeat;
+	width: 512px;
+	height: 443px;
+    margin: auto;
+	margin-top: 64px;
+	text-align: center;
+    -webkit-filter: drop-shadow(0px 12px 25px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=12, Color='#444')";
+}
+
+.login {
+	position: absolute;
+    left: 0;
+    right: 0;
+	width: 400px;
+	height: 256px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 104px;
+	text-align: center;
+}
+
+.register {
+	position: absolute;
+    left: 0;
+    right: 0;
+	width: 400px;
+	height: 256px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 72px;
+	text-align: center;
+}
+
+.account {
+	position: absolute;
+    left: 0;
+    right: 0;
+	width: 400px;
+	height: 256px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 72px;
+	text-align: center;
+}
+
+.edit-account {
+	position: absolute;
+    left: 0;
+    right: 0;
+	width: 400px;
+	height: 256px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 72px;
+	text-align: center;
+}
+
+.details-left {
+	text-align: right;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.details-right {
+	text-align: left;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+#id {
+	font-family: monospace;
+	font-size: 19px;
+}
+
+.code-left {
+	vertical-align: bottom;
+	text-align: right;
+	font-weight: normal;
+	font-size: 26px;
+	width: 36%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.code-right {
+	vertical-align: center;
+	text-align: left;
+	font-weight: normal;
+	font-size: 26px;
+	font-family: monospace;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+}
+
+.form-left {
+	text-align: right;
+}
+
+.form-right {
+	text-align: left;
+}
+
+.form-error {
+	text-align: left;
+	font-style: italic;
+	font-size: 11px;
+	color: #ff0000;
+}
+
+.input {
+	background-color: transparent;
+	font-weight: bold;
+	font-size: 16px;
+	border-width: 0px 0px 2px 0px;
+	border-color: #000000;
+	border-radius: 0;
+	padding: 2px 4px 2px 4px;
+}
+
+.input:focus {
+    outline: none !important;
+}
+
+.button {
+	-webkit-appearance: none;
+	background-color: #000000;
+	font-weight: bold;
+	font-size: 16px;
+	color: #007de4;
+	border-width: 0px;
+	border-radius: 8px;
+	padding: 10px 16px 8px 16px;
+	margin-top: 16px;
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+
+.button:active {
+    outline: none !important;
+	border-width: 2px;
+	border-color: #000000;
+	margin-top: 14px;
+	margin-bottom: -2px;
+}
+
+.belowbutton {
+	margin-top: 4px;
+}
+
+.belowlinks {
+	margin-top: 8px;
+	margin-bottom: -8px;
+}
+
+#generate {
+	margin-top: -8px;
+	margin-bottom: 8px;
+}
+
+#generate .button {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#generate .button:active {
+	margin-top: -2px;
+	margin-bottom: -2px;
+}
+
+.footer-about {
+	height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 406px;
+	color: #000000;
+	text-align: center;
+	font-size: 14px;
+}
+
+.footer-about a {
+	font-weight: normal;
+}
+
+.footer {
+	width: 320px;
+	height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: -8px;
+	color: #007de4;
+	text-align: center;
+	font-size: 14px;
+    -webkit-filter: drop-shadow(0px 12px 25px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=12, Color='#444')";
+}
+
+.bgcopy {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+	color: #ffffff;
+	opacity: 0.25;
+}
+
+.bgcopy p {
+	font-size: 10px;
+}
+
+.bgcopy a {
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 10px;
+	text-decoration: underline;
+}
+
+.about {
+	position: absolute;
+    left: 0;
+    right: 0;
+	width: 400px;
+	height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 56px;
+	text-align: center;
+}
+
+.about p {
+	margin-top: -16px;
+	margin-bottom: 0px;
+}
+
+#aboutpic {
+	background-image: url('../img/about.png');
+	background-repeat: no-repeat;
+	width: 420px;
+	height: 230px;
+    margin-left: auto;
+    margin-right: auto;	
+	margin-bottom: 16px;
+}
+
+.specialp {
+	padding-bottom: 36px;
+}
+
+.specialback {
+	background-color: #000000;
+	color: #007de4;
+	border-width: 0px;
+	border-radius: 8px;
+	padding: 10px 16px 8px 16px;	
+}
